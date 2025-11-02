@@ -10,7 +10,7 @@ public class User {
     public Order order;
     public User()
     {
-        System.out.println("User Initialized");
+        System.out.println(" User Initialized ");
     }
 
 }
