@@ -1,12 +1,13 @@
 package com.mobileparts.puchsystem;
 
-import com.mobileparts.puchsystem.model.Employee;
-import com.mobileparts.puchsystem.service.EmployeeService;
+import java.util.List;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
 
-import java.util.List;
+import com.mobileparts.puchsystem.model.Employee;
+import com.mobileparts.puchsystem.service.EmployeeService;
 
 @Component
 public class DataInitializer implements CommandLineRunner {
@@ -17,7 +18,7 @@ public class DataInitializer implements CommandLineRunner {
     public void run(String... args) throws Exception {
         System.out.println("\n");
         System.out.println("═══════════════════════════════════════════════");
-        System.out.println("   TESTING EMPLOYEE CRUD OPERATIONS");
+        System.out.println("   TESTING EMPLOYEE CRUD OPERATIONS ");
         System.out.println("═══════════════════════════════════════════════");
         System.out.println("\n");
         // TEST 1: CREATE EMPLOYEES
@@ -34,7 +35,7 @@ public class DataInitializer implements CommandLineRunner {
 
         Employee emp2 = employeeService.createEmployee(
                 "Contract",
-                "jiswanhope@gmail.com",
+                "jiswanhope1@gmail.com",
                 "Assembly",
                 "jiswan",
                 "muhammed",
