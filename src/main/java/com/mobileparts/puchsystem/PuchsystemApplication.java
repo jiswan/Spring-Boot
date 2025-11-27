@@ -8,6 +8,7 @@ public class PuchsystemApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(PuchsystemApplication.class, args);
+		
 	}
 
 }
